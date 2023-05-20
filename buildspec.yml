@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 12
+      nodejs: 14
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
@@ -19,4 +19,4 @@ phases:
       - echo Build completed 
 artifacts:
   files:
-    - target/message.jar
+    - message.js
